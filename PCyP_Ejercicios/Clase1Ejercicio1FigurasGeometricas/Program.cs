@@ -15,6 +15,8 @@ namespace Clase1Ejercicio1FigurasGeometricas
         static void Main(string[] args)
         {
 
+            Menu menu = new Menu();
+
         }
     }
 }

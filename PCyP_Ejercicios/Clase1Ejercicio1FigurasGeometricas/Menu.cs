@@ -34,37 +34,51 @@ namespace Clase1Ejercicio1FigurasGeometricas
                     Console.WriteLine("4-Salir");
 
                
-                     opcion = int.Parse(Console.ReadLine());
+                   opcion = int.Parse(Console.ReadLine());
                    
                     switch (opcion)
                     {
                         case 1:
 
-                            Console.WriteLine("Ingrese lado");
+                                Console.WriteLine("Ingrese lado");
                          
-                            int lado = int.Parse(Console.ReadLine());
+                                int lado = int.Parse(Console.ReadLine());
 
-                            Cuadrado cua = new Cuadrado(lado);
+                                Cuadrado cua = new Cuadrado(lado);
 
-                            Console.WriteLine($"El area del cuadrado es:{cua.calcularArea()}");
-                            Console.WriteLine($"El perimetro del cuadrado es:{cua.calcularPerimetro()}");
+                                Console.WriteLine($"El area del cuadrado es:{cua.calcularArea()}");
+                                Console.WriteLine($"El perimetro del cuadrado es:{cua.calcularPerimetro()}");
 
-                            break;
+                        break;
                         case 2:
 
-                            Console.WriteLine("Ingrese altura");
-                            int altura = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Ingrese base");
-                            int baseFigura = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Ingrese altura");
+                                int altura = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Ingrese base");
+                                int baseFigura = int.Parse(Console.ReadLine());
 
-                            Rectangulo rec = new Rectangulo(altura,baseFigura);
+                                Rectangulo rec = new Rectangulo(altura,baseFigura);
 
-                            Console.WriteLine($"El area del rectangulo es:{rec.calcularArea()}");
-                            Console.WriteLine($"El perimetro del rectangulo es:{rec.calcularPerimetro()}");
-                            break;
+                                Console.WriteLine($"El area del rectangulo es:{rec.calcularArea()}");
+                                Console.WriteLine($"El perimetro del rectangulo es:{rec.calcularPerimetro()}");
+                        break;
                         case 3:
-                            //instancia de trinaguo
-                            break;
+
+                                Console.WriteLine("Ingrese altura");
+                                altura = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Ingrese base");
+                                baseFigura = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Ingrese lado");
+                                lado = int.Parse(Console.ReadLine());
+
+                                Triangulo tri = new Triangulo(altura, baseFigura, lado);
+
+                                Console.WriteLine($"El area del rectangulo es:{tri.calcularArea()}");
+                                Console.WriteLine($"El perimetro del rectangulo es:{tri.calcularPerimetro()}");
+                        break;
+                        case 4:
+                            Console.WriteLine("Chau!!");
+                         break;
                     }
 
                     Console.ReadLine();
@@ -78,7 +92,7 @@ namespace Clase1Ejercicio1FigurasGeometricas
                     Console.ReadLine();
               }
 
-}
+        }
              
                 
     }

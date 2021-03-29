@@ -23,6 +23,13 @@ namespace Clase1Ejercicio1FigurasGeometricas
             this.baseFigura = baseFigura;
         }
 
+        public Figura(double altura, double baseFigura,double lado)
+        {
+            this.altura = altura;
+            this.baseFigura = baseFigura;
+            this.lado=lado;
+        }
+
 
         public virtual double calcularArea() => lado * lado;
 

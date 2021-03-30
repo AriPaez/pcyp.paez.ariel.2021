@@ -34,7 +34,7 @@ namespace Clase1Ejercicio1FigurasGeometricas
                     Console.WriteLine("4-Salir");
 
                
-                   opcion = int.Parse(Console.ReadLine());
+                     opcion = int.Parse(Console.ReadLine());
                    
                     switch (opcion)
                     {

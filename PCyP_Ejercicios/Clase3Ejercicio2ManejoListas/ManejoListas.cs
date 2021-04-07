@@ -85,6 +85,10 @@ namespace Clase3Ejercicio2ManejoListas
             }
         }
 
+        public int tamanioListColores() => colores.Count;
+
+        public int capacidadTotal() => colores.Count + quitarColores.Count;
+
 
     }
 }

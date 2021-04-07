@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3Ejercicio1Diccionario
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3Ejercicio2ManejoListas", "Clase3Ejercicio2ManejoListas\Clase3Ejercicio2ManejoListas.csproj", "{AD7A1733-A47F-4144-A023-1BD389C7D832}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3Ejercicio3ContadorPalabras", "Clase3Ejercicio3ContadorPalabras\Clase3Ejercicio3ContadorPalabras.csproj", "{129737CC-C65D-4242-A0AE-F1C23E2B2D1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AD7A1733-A47F-4144-A023-1BD389C7D832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7A1733-A47F-4144-A023-1BD389C7D832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7A1733-A47F-4144-A023-1BD389C7D832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129737CC-C65D-4242-A0AE-F1C23E2B2D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129737CC-C65D-4242-A0AE-F1C23E2B2D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129737CC-C65D-4242-A0AE-F1C23E2B2D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129737CC-C65D-4242-A0AE-F1C23E2B2D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

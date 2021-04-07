@@ -39,6 +39,17 @@ namespace Clase3Ejercicio2ManejoListas
         }
 
 
+        public void imprimir()
+        {
+
+            foreach (string i in colores)
+            {
+                Console.Write($"{i} ");
+
+            }
+
+        }
+
 
     }
 }

@@ -21,7 +21,23 @@ namespace Clase3Ejercicio2ManejoListas
             quitarColores = new List<string>();
         }
 
-      
+        public void cargarColores()
+        {
+            foreach (string i in colors)
+            {
+                colores.Add(i);
+            }
+
+        }
+
+        public void cargarColoresARemover()
+        {
+            foreach (string i in removeColors)
+            {
+                quitarColores.Add(i);
+            }
+        }
+
 
 
     }

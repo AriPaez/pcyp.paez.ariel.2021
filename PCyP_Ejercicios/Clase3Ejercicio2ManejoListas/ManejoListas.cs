@@ -50,6 +50,41 @@ namespace Clase3Ejercicio2ManejoListas
 
         }
 
+        public void remueveColores()
+        {
+            for (int i = 0; i < quitarColores.Count; i++)
+            {
+                for (int j = 0; j < colores.Count; j++)
+                {
+
+                    if (colores[j] == quitarColores[i])
+                    {
+                        colores.RemoveAt(j);
+                    }
+
+                }
+            }
+        }
+
+        public void existeColor(string unColor)
+        {
+            bool existe = false;
+
+            for (int i = 0; i < colores.Count && !existe; i++)
+            {
+                if (colores[i].Equals(unColor))
+                {
+                    Console.WriteLine($"La lista contiene {unColor} en indice {i}");
+                    existe = true;
+                }
+            }
+
+            if (!existe)
+            {
+                Console.WriteLine($"La lista no contiene {unColor}");
+            }
+        }
+
 
     }
 }
